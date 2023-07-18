@@ -27,7 +27,7 @@ ob_start();
 		<?php
 		// Si se ha enviado algo por post se ejecuta el código.
 		if($_POST){
-			$pass=crypt('Fdwes!22','$1$somethin$');
+			$pass=crypt('password','$1$somethin$');
 			//Comprobar que el nombre y contraseña no están vacíos
 			if(isset($_POST['usuario'])) $usuario = $_POST['usuario'];
 			else $usuario = "";
@@ -37,7 +37,7 @@ ob_start();
 			// Comprobamos si usuario y contraseña no están vacíos.
 			if ($usuario != "" && $contrasena !=""){
 				// Autenticamos al usuario con la contraseña.
-				if ($usuario == "foc" && crypt($contrasena,'$1$somethin$') == $pass){
+				if ($usuario == "user" && crypt($contrasena,'$1$somethin$') == $pass){
 					// Se crea la variable de sesión y se le asigna el valor del usuario.
 					$_SESSION['usuario'] = $usuario;
 					header("Location: sesion.php");  // Redirige a la página "sesion.php".
