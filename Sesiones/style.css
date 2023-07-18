@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: calibri;
+}
+body{
+		background-color:  rgb(3, 30, 15);
+}
+.formu{
+	width: 400px;
+	background-color:  rgb(3, 45, 16);
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 8px;
+	box-shadow: 7px 13px 37px #000;
+}
+.formu .boton{
+	width: 100%;
+	background-color: rgb(8, 85, 30);
+	border: none;
+	padding: 12px;
+	color: white;
+	font-weight: bold;
+	margin: 16px 0px;
+	font-size: 20px;
+	border-radius: 8px;
+	margin-bottom: 16px;
+	cursor: pointer;
+}
+.formu .boton:hover{
+	outline: 3px solid rgb(8, 130, 30);
+}
+
+.entrada{
+	width: 100%;
+	background-color: rgb(8, 40, 20);
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 16px;
+	border: 1px solid rgb(8, 100, 30);
+	font-size: 18px;
+	font-weight: bold;
+	color: gray;
+	text-align:center;
+}
+.entrada:hover{
+	border: 1px solid rgb(8, 130, 30);
+}
+.entrada:focus{
+	outline: 2px solid rgb(8, 130, 30);
+}
+.opcion{
+	width: 50%;
+	background-color: #24303c;
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 16px;
+	border: 1px solid rgb(8, 100, 30);
+	font-size: 18px;
+	color: white;
+	width:35%;
+	background-color: rgb(8, 40, 20);
+	text-align: center;
+}
+
+.hor{
+	background-color: rgb(8, 40, 20);
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 16px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-left: 60px;
+}
+
+.opcion:focus{
+		outline: 2px solid rgb(8, 130, 30);
+}
+.msg{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+#saludo{
+	font-size: 22px;
+	padding-bottom:20px;
+}
+#titulo{
+	font-weight: bold;
+	padding-bottom: 18px;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
