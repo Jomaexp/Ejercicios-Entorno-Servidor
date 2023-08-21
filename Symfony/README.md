@@ -5,3 +5,5 @@ En esta práctica tenemos dos fricheros.
 
 El fichero docs.rar contiene toda la documentación php en phpdocumentor.
 El fichero tienda.rar contiene toda la estructura de carpetas y documentos para usarse directamente en apache montando la tienda web. 
+Se puede ver el funcionamiento de la tienda en el siguiente enlace
+http://jomaexp.atwebpages.com/DWES/tienda/public/
