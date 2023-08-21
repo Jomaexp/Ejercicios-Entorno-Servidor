@@ -6,3 +6,5 @@ Ejemplos:
 Se introduce 3. Nos saldrán los valores 3 y 0 
 Se introduce 9. Nos saldrán los valores 9 6 3 0 
 Se introduce 4. Nos saldrán los valores 4 y 1.
+Se puede comprobar su funcionamiento en el siguiente enlace.
+http://jomaexp.atwebpages.com/DWES/TAREA3/tarea3.php
