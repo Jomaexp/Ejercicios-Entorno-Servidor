@@ -5,3 +5,6 @@ Este cliente es capaz de darnos la información de los capítulos y personajes d
 El fichero "ficheros.rar" contiene todo lo necesario para hacer funcionar el cliente.
 
 Un ejercicio donde vemos como consumir esta api. Si queremos más información en su página web tenemos todas las posibilidades.
+
+Podemos comprobar el funcionamiento de nuestro cliente en el siguiente enlace:
+http://jomaexp.byethost7.com/DWES/TAREA9/clienteaw.php
